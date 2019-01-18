@@ -154,10 +154,16 @@ This application can run in two mode:
   !!! To chose a specific environment please change NODE_ENV value, the default mode used by this application is the staging environment
   
 To configure the application you should have:
-  - an api_key for Stripe
-  - an api_key and sanbox domain for Mailgun
-  - create .json file called menu.json and store it in data/menu directory
-  - put in menu.json the specific content explained up
+  1) an api_key for Stripe
+  2) an api_key and sanbox domain for Mailgun
+  3) create a folder structure as follows in app directory( same directory where is located index.js file):
+      data/:
+	    - menu/
+	    - tokens/
+	    - users/
+	  
+  4) create .json file called menu.json and store it in data/menu directory
+  5) put in menu.json the specific content explained up
   Put this info to the config.js file and run it
   
 !!! The purpose of this app is only to fulfill the Home Assignement #2 at Node.js Master Class on pirple.com school
