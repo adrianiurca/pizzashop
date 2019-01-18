@@ -7,6 +7,7 @@ Home assignment #2 on Pirple platform Node.JS Master Class
                                     ************************************
 
 This application in developed only using node.js utilities, no NPM modules was used.
+This application also run a background worker( runs from 30 by 30 minutes ) which deletes all expired tokens.
 Pizzashop is a RESTfull API which allows you to use the following services: /users, /tokens, /menu, /checkout.
 Pizzashop is able to perform the following commands:
 
