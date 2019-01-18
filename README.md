@@ -158,9 +158,9 @@ To configure the application you should have:
   2) an api_key and sanbox domain for Mailgun
   3) create a folder structure as follows in app directory( same directory where is located index.js file):
       data/:
-	    - menu/
-	    - tokens/
-	    - users/
+	    - data/menu/
+	    - data/tokens/
+	    - data/users/
 	  
   4) create .json file called menu.json and store it in data/menu directory
   5) put in menu.json the specific content explained up
