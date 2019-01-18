@@ -157,14 +157,14 @@ This application can run in two mode:
 To configure the application you should have:
   1) an api_key for Stripe
   2) an api_key and sanbox domain for Mailgun
-  3) create a folder structure as follows in app directory( same directory where is located index.js file):
+  3) Put the Stripe api_key, Mailgun api_key and Mailgun sandbox domain in config.js
+  4) create a folder structure as follows in app directory( same directory where is located index.js file):
       data/:
 	    - data/menu/
 	    - data/tokens/
 	    - data/users/
 	  
-  4) create .json file called menu.json and store it in data/menu directory
-  5) put in menu.json the specific content explained up
-  Put this info to the config.js file and run it
+  5) create .json file called menu.json in data/menu directory
+  6) put in menu.json the specific content explained up
   
 !!! The purpose of this app is only to fulfill the Home Assignement #2 at Node.js Master Class on pirple.com school
